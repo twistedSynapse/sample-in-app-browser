@@ -5,7 +5,8 @@ document.addEventListener("touchstart", function() {
 }, false);
 
 function onDeviceReady() {
-	var app = new Application();
+	navigator.splashscreen.hide();
+    var app = new Application();
 	app.run();
 }
 
@@ -43,10 +44,10 @@ Application.prototype = {
 		}
 		else {
 			if (device.platform == 'Android') {
-				window.open("http://samplepdf.com/sample.pdf", "_system");
+				window.open("http://www.icenium.com/docs/default-source/icenium-downloads/understanding-the-three-ways-to-build-mobile-apps.pdf?sfvrsn=0", "_system");
 			}
 			else
-				window.open("http://samplepdf.com/sample.pdf", "_blank");
+				window.open("http://www.icenium.com/docs/default-source/icenium-downloads/understanding-the-three-ways-to-build-mobile-apps.pdf?sfvrsn=0", "_blank");
 		}
 	},
 	
