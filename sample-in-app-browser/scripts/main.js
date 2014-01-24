@@ -39,20 +39,20 @@ Application.prototype = {
 	},
     
 	openExternalPDF:  function () {
-		if (device.uuid == "e0101010d38bde8e6740011221af335301010333" || device.uuid == "e0908060g38bde8e6740011221af335301010333") {
+		if (window.navigator.simulator === true) {
 			alert("Not Supported in Simulator.");
 		}
 		else {
 			if (device.platform == 'Android') {
-				window.open("http://www.icenium.com/docs/default-source/icenium-downloads/understanding-the-three-ways-to-build-mobile-apps.pdf?sfvrsn=0", "_system");
+				window.open("http://www.telerik.com/whitepapers/appbuilder/approaching-mobile-understanding-the-three-ways-to-build-mobile-apps", "_system");
 			}
 			else
-				window.open("http://www.icenium.com/docs/default-source/icenium-downloads/understanding-the-three-ways-to-build-mobile-apps.pdf?sfvrsn=0", "_blank");
+				window.open("http://www.telerik.com/whitepapers/appbuilder/approaching-mobile-understanding-the-three-ways-to-build-mobile-apps", "_blank");
 		}
 	},
 	
 	openPDF: function() {
-		if (device.uuid == "e0101010d38bde8e6740011221af335301010333" || device.uuid == "e0908060g38bde8e6740011221af335301010333") {
+		if (window.navigator.simulator === true) {
 			alert("Not Supported in Simulator.");
 		}
 		else {
