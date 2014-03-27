@@ -11,12 +11,15 @@
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
     <BundleVersion>1.0</BundleVersion>
-    <iOSDisplayName>InAppBrowser</iOSDisplayName>
+    <iOSDisplayName>
+    </iOSDisplayName>
     <iOSDeviceFamily>1;2</iOSDeviceFamily>
     <AndroidVersionCode>1</AndroidVersionCode>
     <iOSBackgroundMode />
     <FrameworkVersion>3.2.0</FrameworkVersion>
     <CorePlugins>org.apache.cordova.device;org.apache.cordova.inappbrowser;org.apache.cordova.splashscreen</CorePlugins>
+    <DisplayName>InAppBrowser</DisplayName>
+    <WP8SupportedResolutions>ID_RESOLUTION_WVGA;ID_RESOLUTION_WXGA;ID_RESOLUTION_HD720P</WP8SupportedResolutions>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
