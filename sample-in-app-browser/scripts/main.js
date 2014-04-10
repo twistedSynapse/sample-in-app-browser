@@ -38,12 +38,10 @@ Application.prototype = {
 	},
 
 	openExternalPDF:  function () {
-		var windowTarget;
 		if (window.navigator.simulator === true) {
 			alert("Not Supported in Simulator.");
 		} else {
-			windowTarget = device.platform.toLowerCase() === "android" ? "_system" : "_blank";
-			window.open("http://www.telerik.com/whitepapers/appbuilder/approaching-mobile-understanding-the-three-ways-to-build-mobile-apps", windowTarget);
+			window.open("http://www.telerik.com/whitepapers/appbuilder/approaching-mobile-understanding-the-three-ways-to-build-mobile-apps", "_blank");
 		}
 	},
 
