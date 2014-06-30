@@ -51,5 +51,6 @@
     "ID_RESOLUTION_HD720P"
   ],
   "Author": "",
-  "Description": "sample-in-app-browser"
+  "Description": "sample-in-app-browser",
+  "Framework": "Cordova"
 }
