@@ -5,24 +5,24 @@
   "ProjectName": "sample-in-app-browser",
   "IsRunnable": "true",
   "AndroidPermissions": [
-    "android.permission.CAMERA",
-    "android.permission.VIBRATE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.INTERNET",
-    "android.permission.RECEIVE_SMS",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
-    "android.permission.READ_CONTACTS",
-    "android.permission.WRITE_CONTACTS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCOUNT_MANAGER",
+    "android.permission.BROADCAST_STICKY",
+    "android.permission.CAMERA",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
     "android.permission.MANAGE_ACCOUNTS",
-    "android.permission.BROADCAST_STICKY"
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_SMS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "DeviceOrientations": [
     "Portrait",
@@ -38,7 +38,7 @@
   ],
   "AndroidVersionCode": "1",
   "iOSBackgroundMode": [],
-  "FrameworkVersion": "3.5.0",
+  "FrameworkVersion": "3.7.0",
   "CorePlugins": [
     "org.apache.cordova.device",
     "org.apache.cordova.inappbrowser",
@@ -52,5 +52,12 @@
   ],
   "Author": "",
   "Description": "sample-in-app-browser",
-  "Framework": "Cordova"
+  "Framework": "Cordova",
+  "projectVersion": "1",
+  "WP8PublisherID": "{9f2c2acf-764f-44e4-ab58-487d26cb11ff}",
+  "WP8ProductID": "{096f4170-2c19-4a1a-9897-a7a0b63abad6}",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8Publisher": "",
+  "WP8TileTitle": ""
 }
