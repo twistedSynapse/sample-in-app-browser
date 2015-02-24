@@ -50,7 +50,5 @@
 	"Author": "",
 	"Description": "sample-in-app-browser",
 	"Framework": "Cordova",
-	"projectVersion": 1,
-	"WP8PublisherID": "{49d5d30a-bc5d-4b93-9026-3d43015fa490}",
-	"WP8ProductID": "{11d68a5c-bb43-462c-bd8d-c3a5b0c66c11}"
+	"projectVersion": 1
 }
