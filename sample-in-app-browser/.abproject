@@ -41,13 +41,18 @@
 		"org.apache.cordova.inappbrowser",
 		"org.apache.cordova.splashscreen"
 	],
-	"DisplayName": "sample-in-app-browser",
+	"DisplayName": "In-app-browser",
 	"WP8SupportedResolutions": [
 		"ID_RESOLUTION_WVGA",
 		"ID_RESOLUTION_WXGA",
 		"ID_RESOLUTION_HD720P"
 	],
 	"Author": "",
+	"WP8Publisher": "",
+	"WP8TileTitle": "",
+	"WP8Capabilities": [],
+	"iOSBackgroundMode": [],
+	"WP8Requirements": [],
 	"Description": "sample-in-app-browser",
 	"Framework": "Cordova",
 	"projectVersion": 1
