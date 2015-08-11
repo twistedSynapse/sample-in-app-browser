@@ -43,9 +43,9 @@
 	],
 	"DisplayName": "In-app-browser",
 	"WP8SupportedResolutions": [
+		"ID_RESOLUTION_HD720P",
 		"ID_RESOLUTION_WVGA",
-		"ID_RESOLUTION_WXGA",
-		"ID_RESOLUTION_HD720P"
+		"ID_RESOLUTION_WXGA"
 	],
 	"Author": "",
 	"WP8Publisher": "",
@@ -55,5 +55,9 @@
 	"WP8Requirements": [],
 	"Description": "sample-in-app-browser",
 	"Framework": "Cordova",
-	"projectVersion": 1
+	"projectVersion": 1,
+	"WP8PublisherID": "{d72090b0-7735-4777-865e-9dec173a2498}",
+	"WP8ProductID": "{eca65b89-dbd0-494f-989b-b1c9be07f584}",
+	"WP8PackageIdentityName": "1234Telerik.com.telerik.sampleinappbrowser",
+	"WP8WindowsPublisherName": "CN=Telerik"
 }
