@@ -1,0 +1,7 @@
+title: InAppBrowser
+slug: sample-inappbrowser
+page_title: InAppBrowser | Apache Cordova Sample | Telerik Platform
+description: This sample shows you how to use the InAppBrowser Apache Cordova core plugin to open web pages and view images and PDFs online. 
+tags: Apache Cordova, core, inappbrowser, internet, iOS, Android, Windows Phone
+publish: true
+content_filter: true
