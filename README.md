@@ -11,7 +11,7 @@ InAppBrowser
 
 # Overview
 
-This sample shows you how to use the InAppBrowser core plugins to open stored images, access web pages and open PDF files.
+This sample shows you how to use the InAppBrowser core plugin to open stored images, access web pages and open PDF files.
 
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
