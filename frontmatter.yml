@@ -5,3 +5,4 @@ description: This sample shows you how to use the InAppBrowser Apache Cordova co
 tags: Apache Cordova, core, inappbrowser, internet, iOS, Android, Windows Phone
 publish: true
 content_filter: true
+apis: cordova.inappbrowser cordova.inappbrowser.open cordova.inappbrowser.addEventListener
